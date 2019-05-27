@@ -1,0 +1,60 @@
+body{
+    background: url(pfondo6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    font-family: cursive;
+      background-size: cover;
+}
+form{
+    width: 450px;
+    margin: auto;
+    background: #FFD27D;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    
+}
+
+h2{
+    color: #333;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin: 20px;
+}
+
+input, .txtrea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    
+    
+}
+.txtarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.botton{
+    background: #FFF8DC;
+        color: #333;
+    padding: 20px;
+}
+
+.botton:hover{
+    cursor: pointer;
+    }
+
+@media (max-width:480px){
+    form {
+        width: 100%;
+    }
+}

@@ -1,0 +1,49 @@
+.bg-img {
+  /* The image used */
+  background: url(principal.jpg);
+ 
+  min-height: 641px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+    height: 100vh;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 40px;
+  width: auto;
+    @media screen and (max-width:40px) {
+  /* reglas CSS */
+}
+
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #FFF8DC;
+  color: black;
+}
+
+
